@@ -10,7 +10,6 @@ This repository contains my personal solutions to various programming exercises 
 
 ## 🌐 Supported Tracks
 
-(The automation will replace this with the table)
 
 ## Sponsors
 
