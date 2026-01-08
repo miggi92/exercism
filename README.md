@@ -10,14 +10,7 @@ This repository contains my personal solutions to various programming exercises 
 
 ## 🌐 Supported Tracks
 
-Below are the language tracks I am currently working on. Each link leads to the specific solution sets for that language:
-
-| Track | Exercises Completed | Path |
-| :--- | :--- | :--- |
-| **ABAP** | 10+ | [`/solutions/abap`](./solutions/abap) |
-| **Python** | 3+ | [`/solutions/python`](./solutions/python) |
-| **Kotlin** | 1+ | [`/solutions/kotlin`](./solutions/kotlin) |
-| **Dart** | 1+ | [`/solutions/dart`](./solutions/dart) |
+(The automation will replace this with the table)
 
 ## Sponsors
 
