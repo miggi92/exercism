@@ -28,8 +28,8 @@ def generate_readme():
         with open("README.md", "r", encoding="utf-8") as f:
             content = f.read()
 
-        start_marker = ""
-        end_marker = ""
+        start_marker = "<!-- Supported Tracks table Start -->"
+        end_marker = "<!-- Supported Tracks table End -->"
 
         if start_marker not in content or end_marker not in content:
             print(f"Error: Markers {start_marker} or {end_marker} not found in README.md")
