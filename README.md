@@ -10,7 +10,6 @@ This repository contains my personal solutions to various programming exercises 
 
 ## 🌐 Supported Tracks
 
-
 ## Sponsors
 
 ![Sponsors](https://github.com/miggi92/static/blob/master/sponsors.svg)
