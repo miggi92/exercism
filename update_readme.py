@@ -13,7 +13,7 @@ def generate_readme():
                 exercise_count = len([d for d in os.listdir(track_path) 
                                     if os.path.isdir(os.path.join(track_path, d))])
                 tracks.append({
-                    "name": track.upper() if track == "abap" else track.capitalize(),
+                    "name": "JavaScript" if track == "javascript" else (track.upper() if track == "abap" else track.capitalize()),
                     "count": exercise_count,
                     "path": f"./solutions/{track}"
                 })
