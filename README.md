@@ -15,7 +15,7 @@ This repository contains my personal solutions to various programming exercises 
 | :--- | :--- | :--- |
 | **ABAP** | 11 | [`./solutions/abap`](./solutions/abap) |
 | **Dart** | 1 | [`./solutions/dart`](./solutions/dart) |
-| **Javascript** | 1 | [`./solutions/javascript`](./solutions/javascript) |
+| **JavaScript** | 1 | [`./solutions/javascript`](./solutions/javascript) |
 | **Kotlin** | 1 | [`./solutions/kotlin`](./solutions/kotlin) |
 | **Python** | 3 | [`./solutions/python`](./solutions/python) |
 
