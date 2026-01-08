@@ -11,6 +11,12 @@ This repository contains my personal solutions to various programming exercises 
 ## 🌐 Supported Tracks
 
 <!-- Supported Tracks table Start -->
+| Track | Exercises | Path |
+| :--- | :--- | :--- |
+| **ABAP** | 10 | [`./solutions/abap`](./solutions/abap) |
+| **Dart** | 1 | [`./solutions/dart`](./solutions/dart) |
+| **Kotlin** | 1 | [`./solutions/kotlin`](./solutions/kotlin) |
+| **Python** | 3 | [`./solutions/python`](./solutions/python) |
 
 <!-- Supported Tracks table End -->
 
