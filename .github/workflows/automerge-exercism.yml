@@ -3,15 +3,17 @@ name: Automerge Exercism Solutions
 on:
   pull_request:
 
+  workflow_dispatch:
+
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    if: github.actor == 'exercism-solutions-syncer[bot]'
+    if: |
+      github.event.pull_request.user.login == 'exercism-solutions-syncer[bot]' || 
+      github.actor == 'exercism-solutions-syncer[bot]'
     steps:
       - name: Automerge PR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
-        run: |
-          # Nutzt die GitHub CLI zum Mergen
-          gh pr merge "$PR_URL" --auto --merge
+        run: gh pr merge "$PR_URL" --auto --merge
