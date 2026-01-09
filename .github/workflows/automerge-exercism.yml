@@ -2,9 +2,6 @@ name: Automerge Exercism Solutions
 
 on:
   pull_request:
-    types:
-      - opened
-      - synchronized
 
 jobs:
   automerge:
