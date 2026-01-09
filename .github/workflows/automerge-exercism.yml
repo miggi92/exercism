@@ -1,0 +1,20 @@
+name: Automerge Exercism Solutions
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronized
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    if: github.actor == 'exercism-solutions-syncer'
+    steps:
+      - name: Automerge PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          # Nutzt die GitHub CLI zum Mergen
+          gh pr merge "$PR_URL" --auto --merge
